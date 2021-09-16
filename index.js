@@ -67,8 +67,10 @@ function quiz(question, answer)
   if(userAnswer===answer){
     console.log("You are right!");
     score=score+1;
+    console.log(score);
   } else {
     console.log("You are wrong!");
+    console.log(score);
   }
 }
 
